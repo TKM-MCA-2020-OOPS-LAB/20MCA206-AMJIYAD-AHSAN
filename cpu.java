@@ -35,7 +35,7 @@ public class cpu {
 		b=obj1.no_cores=8;
 		s=obj1.manufacturer="intel";
 		
-		cpu.RAM obj2=new RAM();//accessing 
+		cpu.RAM obj2=new RAM();
 		c=obj2.memory=8;
 		d=obj2.manufacturer="Asus";
 		
