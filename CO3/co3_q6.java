@@ -67,16 +67,16 @@ public class co3_q6 {
 		        break;
 		case 2: rectangle r=new rectangle();
 		        System.out.println("Enter your choice");
-                System.out.println("1.Area \n2.perimeter");
-                opt=sc1.nextInt();
-                if(opt==1)
-                {
-                	r.area();
-                }
-                else
-                {
-                	r.perimeter();
-                }
+                        System.out.println("1.Area \n2.perimeter");
+                        opt=sc1.nextInt();
+                        if(opt==1)
+                        {
+                	        r.area();
+                        }
+                        else
+                        {
+                	        r.perimeter();
+                        }
 		        
 		         
 				
