@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-class Fibo implements Runnable{
-	public void run(){
+class Fibo implements Runnable
+{
+	public void run()
+        {
 		int a=0,b=1,c,i,n;
 		c=a+b;
 		System.out.print("enter the limit:");
@@ -13,15 +15,15 @@ class Fibo implements Runnable{
 		
 		
 		for(i=3;i<=n;i++)
-        {
+                {
 			System.out.print(c+" ");
 			
 			a=b;
 			b=c;
 			c=a+b;
-        }
+                 }
 		
-		}
+	}
 }
 
 class EvenT implements Runnable
@@ -39,12 +41,13 @@ class EvenT implements Runnable
 			{
 				System.out.print(" "+i);
 			}
-			}
 		}
+	}
 }
 public class gee {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+        {
 		Fibo f=new Fibo();
 		Thread t1=new Thread(f);
 		t1.start();
